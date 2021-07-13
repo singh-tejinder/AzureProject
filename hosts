@@ -1,0 +1,12 @@
+[azurevms]
+# Public IPs of the Azure VM Machines
+40.122.168.175
+40.122.168.162
+
+[azurevms:vars]
+ansible_user=vmadmin
+ansible_password=Vmadmin!2345
+ansible_connection=winrm
+ansible_winrm_transport=basic
+ansible_winrm_server_cert_validation=ignore
+ansible_port=5986
